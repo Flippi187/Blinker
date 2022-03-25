@@ -19,6 +19,7 @@ private:
     QTimer* m_timer;
     bool m_state;
     Gpio* m_gpio;
+    int wundschuh;
 };
 
 #endif // GUI_H
